@@ -1,6 +1,6 @@
 export function Container({children}: any) {
     return(
-        <div className="p-4">
+        <div className="px-5 sm:px-10">
             {children}
         </div>
     )
