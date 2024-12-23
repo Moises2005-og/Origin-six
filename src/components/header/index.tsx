@@ -17,7 +17,7 @@ export function Header() {
                 <Container>
                     <nav className="flex justify-between items-center">
                         <h1 className="text-[28px] font-bold">Beauty<span className="text-[#69B99D]">salon</span></h1>
-                        <ul className={'flex flex-col sm:flex-row gap-5 text-[18px]'}>
+                        <ul className={'flex flex-col sm:flex-row gap-5 text-[18px]'}> 
                             <li className='hidden sm:flex cursor-pointer'>Inicio</li>
                             <li className="hidden sm:flex cursor-pointer">Sobre</li>
                             <li className="hidden sm:flex cursor-pointer">Servicos</li>
