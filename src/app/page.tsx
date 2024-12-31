@@ -2,6 +2,7 @@ import { About } from "@/components/about";
 import { Header } from "@/components/header";
 import { Home } from "@/components/home";
 import { Servico } from "@/components/servico";
+import { Testimonials } from "@/components/testimonials";
 
 export default function Page() {
   return(
@@ -10,6 +11,7 @@ export default function Page() {
       <Home/>
       <About/>  
       <Servico/>
+      <Testimonials/>
     </div>
   )
 }
